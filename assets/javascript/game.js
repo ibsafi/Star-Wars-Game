@@ -86,7 +86,7 @@ var game = {
             HP              : 200,
             currentHP       : 200,
             img             : "./assets/images/boba-fett.jpg",
-        },
+        }
     ],
 
     attack  : function(auto){
@@ -291,7 +291,8 @@ var game = {
 
             case 2://waiting for user to choose a defender character
                 for(var i=0; i< game.characters.length; i++){
-                    if(game.characters[i].name[1] === game.cmd_name[1]){
+                    game.cmd_name = game.cmd_name.split(" (")[0]
+                    if(game.characters[i].name === game.cmd_name){
                         game.defenderId = i;
                         game.stage++;
                         break;
@@ -330,7 +331,6 @@ var game = {
 
 $(document).on("click", ".select" ,function(){
     game.cmd_name = $(this).text();
-    console.log(game.cmd_name);
     game.run();
 });
 game.run();
