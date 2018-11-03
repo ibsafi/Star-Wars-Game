@@ -13,8 +13,8 @@ var game = {
             currentAttackPwr: 30,
             baseAttack      : 50,
             cntrAttack      : 40,
-            HP              : 150,
-            currentHP       : 150,
+            HP              : 250,
+            currentHP       : 250,
             img             : "./assets/images/bb-8.jpg",
         },
         {
