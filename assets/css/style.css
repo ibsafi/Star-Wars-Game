@@ -1,0 +1,105 @@
+body{
+    background-image: url("./../images/background.jpg");
+    background-repeat: no-repeat;
+    background-color: #777777; 
+    background-position: center;
+    background-size: 155%;
+    text-align: center;
+}
+#header{
+    text-align: center;
+    color: rgb(229, 241, 239);
+    margin: auto;
+    margin: 25px auto;
+    font-size: 30px;
+    padding: 17.5px 12.5px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: rgba(88, 25, 25, 0.95);
+}
+#content{
+    text-align: center;
+}
+.image{
+    background-size: 275px 220px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 275px;
+    height: 220px;  
+    border: 2.5px solid rgba(224, 224, 224, 0.75);
+    border-radius: 35px;
+    display: inline-block;
+    margin: 25px;
+    font-size: 20px;
+    letter-spacing: 0.35px;
+    color: azure;
+    text-shadow: -2.5px 1.5px rgb(71, 13, 13);
+}
+.select{
+    cursor: pointer;
+}
+.user-char{
+    border-color: rgba(36, 145, 36, 0.85); 
+    border-width: 7.5px;
+}
+.enemy-char{
+    border-color: rgba(139, 0, 0, 0.85); 
+    border-width: 7.5px;
+}
+.no-copy{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.vs{
+    text-align: center;
+    color: wheat;
+    margin: auto 15px;
+    font-size: 20px;
+    padding: 15px 15px;
+    display: inline-block;
+    border: 5px solid rgba(126, 57, 31, 0.85);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    bottom: 85px;
+}
+.attack-btn, .continue{
+    margin: 12.5px 15px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgba(14, 121, 112, 0.9);
+    text-shadow: 1px 1px rgba(95, 13, 13, 0.9);
+}
+.auto-attack-btn, .restart{
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgba(95, 13, 13, 0.9);
+    text-shadow: 1px 1px rgba(14, 121, 112, 0.9);
+}
+.attack-info{
+    margin: 15px;
+    text-align: center;
+    color: white;
+    font-size: 17.5px;
+    letter-spacing: 0.5px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgba(15, 11, 11, 0.9);
+    line-height: 30px;
+}
